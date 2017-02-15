@@ -151,6 +151,7 @@ confusionMatrix(train_valid$classe, prediction_train_test_2)
 ## Detection Rate         0.2780   0.1791   0.1663   0.1575   0.1781
 ## Detection Prevalence   0.2845   0.1935   0.1744   0.1639   0.1838
 ## Balanced Accuracy      0.9795   0.9616   0.9589   0.9779   0.9919
+
 ## Figure 3 - Combined Results
 confusionMatrix(train_valid$classe, prediction_train_test_3)
 ## Confusion Matrix and Statistics
